@@ -20,7 +20,7 @@ $cera_child = require get_stylesheet_directory() . '/inc/class-cera-child.php';
  */
 /*
 	Sync PMPro fields to BuddyPress profile fields.
-*/
+
 function lmcu_update_user_meta($meta_id, $object_id, $meta_key, $meta_value)
 {		
 	//make sure buddypress is loaded
@@ -51,4 +51,4 @@ function lmcu_add_user_meta($object_id, $meta_key, $meta_value)
 {
 	lmcu_update_user_meta(NULL, $object_id, $meta_key, $meta_value);
 }
-add_action('add_user_meta', 'lmcu_add_user_meta', 10, 3);
+add_action('add_user_meta', 'lmcu_add_user_meta', 10, 3);*/

@@ -33,7 +33,7 @@ do_action( 'bp_before_member_header' ); ?>
 		<div id="item-header-content">
 
 			<?php if ( bp_is_active( 'activity' ) && bp_activity_do_mentions() ) : ?>
-				<h2 class="user-nicename">@<?php bp_displayed_user_mentionname(); ?></h2>
+				<h2 class="user-nicename">@TEST<?php bp_displayed_user_mentionname(); ?></h2>
 			<?php endif; ?>
 
 			<div id="item-buttons"><?php
